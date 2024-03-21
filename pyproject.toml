@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "techchallenge"
+version = "0.1.0"
+description = "Solving a problem to enroll Contabilizei"
+authors = ["Bruno Soares"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+duckdb = "^0.10.1"
+sqlalchemy = "^2.0.28"
+pydantic = "^2.6.4"
+python-dotenv = "^1.0.1"
+mysqlclient = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
